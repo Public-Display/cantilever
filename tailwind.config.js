@@ -4,6 +4,7 @@ export const theme = {
   fontFamily: {
     sans: ['montserrat, sans-serif'],
     cinzel: ['Cinzel, serif'],
+    albert: ['Albert Sans, serif'],
   },
   extend: {
     colors: {

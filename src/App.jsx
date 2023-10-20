@@ -51,12 +51,12 @@ function App() {
   return (
     <div className='w-full h-[100dvh] bg-primary-100 flex flex-col items-start md:flex-row md:items-center justify-between'>
 
-      <div className='w-full md:w-3/5 flex items-start justify-start flex-col space-y-5 p-8 z-10'>
-        <p className='text-xl md:text-2xl text-white uppercase'>the Future of real estate investment and development</p>
+      <div className='w-full md:w-3/5 flex items-start justify-start flex-col space-y-3 p-8 z-10 pt-[152px] md:pt-0'>
+        <p className='w-full md:w-1/2 text-xl md:text-2xl text-white uppercase body-font font-albert font-normal'>the Future of real estate investment and development</p>
         <p className='text-4xl md:text-8xl text-cyellow-100 w-full body-font font-cinzel'>
           WEBSITE COMING SOON
         </p>
-        <p className='text-xl md:text-2xl text-white'>BE THE FIRST TO KNOW WHEN IT’S READY.</p>
+        <p className='text-xl md:text-2xl text-white body-font font-albert font-normal'>BE THE FIRST TO KNOW WHEN IT’S READY.</p>
       </div>
 
       <div 
@@ -67,17 +67,17 @@ function App() {
           objectFit: "contain",
           backgroundPosition: 'right'
         }}
-        className='h-full md:min-h-[120dvh] w-full md:w-2/5 flex items-center justify-end absolute md:relative text-yellow-600'
+        className='overflow-hidden h-full md:min-h-[120dvh] w-full md:w-2/5 flex items-center justify-end absolute md:relative text-yellow-600'
       >
-        <div className='absolute left-0 pl-8 pt-28 md:pt-0 md-pl-0 opacity-100 md:left-2/3 flex items-center justify-center flex-col text-white'>
-          <p className='text-xl md:text-2xl'>Ready in</p>
-          <div className='text-6xl md:text-8xl font-bold text-cyellow-100 flex items-center space-x-2'>
+        <div className='absolute left-0 right-24 px-8 pt-72 md:pt-0 md-pl-0 opacity-100 md:left-2/3 flex items-center justify-center flex-col text-white'>
+          <p className='text-xl md:text-2xl whitespace-nowrap'>Ready in</p>
+          <div className='text-6xl md:text-8xl font-bold text-cyellow-100 flex items-center space-x-2 body-font font-albert'>
             <span>{countdownTime?.countdownDays ?? '...'}</span>
             {/* <span>{countdownTime?.countdownHours}</span>
             <span>{countdownTime?.countdownlMinutes}</span>
             <span>{countdownTime?.countdownSeconds}</span> */}
           </div>
-          <p className='text-2xl md:text-4xl text-cyellow-100'>Days</p>
+          <p className='text-2xl md:text-4xl text-cyellow-100 body-font font-albert font-normal'>Days</p>
         </div>
       </div>
 
