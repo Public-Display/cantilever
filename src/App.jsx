@@ -69,7 +69,7 @@ function App() {
         }}
         className='overflow-hidden h-full md:min-h-[120dvh] w-full md:w-2/5 flex items-center justify-end absolute md:relative text-yellow-600'
       >
-        <div className='absolute left-0 right-24 px-8 pt-72 md:pt-0 md-pl-0 opacity-100 md:left-2/3 flex items-center justify-center flex-col text-white'>
+        <div className='absolute left-0 md:right-24 pl-8 pt-72 md:pt-0 md-pl-0 opacity-100 md:left-2/3 flex items-center justify-center flex-col text-white'>
           <p className='text-xl md:text-2xl whitespace-nowrap'>Ready in</p>
           <div className='text-6xl md:text-8xl font-bold text-cyellow-100 flex items-center space-x-2 body-font font-albert'>
             <span>{countdownTime?.countdownDays ?? '...'}</span>
