@@ -48,8 +48,6 @@ function App() {
     countdownTimer();
   });
 
-  console.log(countdownTime)
-
   return (
     <div className='w-full h-[100dvh] bg-primary-100 flex flex-col items-start md:flex-row md:items-center justify-between'>
 
